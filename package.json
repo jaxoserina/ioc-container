@@ -1,0 +1,64 @@
+{
+  "name": "IOC-Container",
+  "version": "1.0.0",
+  "description": "Dependency Injection and Inversion of Control (IoC) container",
+  "author": "Jaxo Natarajan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaxoserina/IOC.git"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "ioc",
+    "container",
+    "dependency",
+    "di",
+    "dependency injection",
+    "service locator",
+    "inject",
+    "injection",
+    "inverstion of control",
+    "injector",
+    "injectable",
+    "interface",
+    "abstraction",
+    "javascript",
+    "js",
+    "es6",
+    "es7",
+    "es8",
+    "node",
+    "nodejs",
+    "node.js",
+    "decorator",
+    "typescript",
+    "browser"
+  ],
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"npm start\"",
+    "start": "node ./dist/index.js",
+    "lint": "eslint '*/**/*.ts'",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage --config jest.config.json --no-cache"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaxoserina/IOC/issues"
+  },
+  "homepage": "https://github.com/jaxoserina/IOC#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/lodash": "^4.14.165",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
