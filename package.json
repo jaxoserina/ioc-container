@@ -1,11 +1,11 @@
 {
-  "name": "IOC-Container",
-  "version": "1.0.0",
+  "name": "typescript-nodejs-ioc",
+  "version": "0.1.0",
   "description": "Dependency Injection and Inversion of Control (IoC) container",
   "author": "Jaxo Natarajan",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaxoserina/IOC.git"
+    "url": "git+https://github.com/jaxoserina/ioc-container.git"
   },
   "main": "dist/index.js",
   "keywords": [
@@ -44,9 +44,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jaxoserina/IOC/issues"
+    "url": "https://github.com/jaxoserina/ioc-container/issues"
   },
-  "homepage": "https://github.com/jaxoserina/IOC#readme",
+  "homepage": "https://github.com/jaxoserina/ioc-container#readme",
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "@types/lodash": "^4.14.165",
