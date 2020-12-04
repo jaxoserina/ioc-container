@@ -1,10 +1,7 @@
-import { container, Container } from './container';
-import { find } from 'lodash';
+import { Container } from './container';
 
 class MockTestService {
-  constructor () {
-
-  }
+  constructor () {}
 };
 
 describe('container', () => {
